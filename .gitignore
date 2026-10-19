@@ -1,0 +1,20 @@
+# Recorded ROS 2 bag data (large; keep locally or track via Git LFS/releases)
+*.db3
+
+# ROS 2 / colcon build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# MATLAB
+*.asv
+*.m~
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
